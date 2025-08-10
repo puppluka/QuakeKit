@@ -1,0 +1,85 @@
+/*quake.rc
+exec default.cfg				// Base Config
+exec config.cfg					// Last Saved Config
+exec autoexec.cfg				// User config
+stuffcmds						// stuff cli statements
+startdemos demo3 demo2 demo1	// arcade-style demoreel
+*/
+
+/*developer.cfg
+--- REDACTED ---
+*/
+
+/*cheats.cfg
+--- REDACTED ---
+*/
+
+/*cam.cfg
+--- REDACTED ---
+*/
+
+/*default.cfg
+unbindall
+
+	// Player Ctrl
+bind	e			+moveup										// Swim Up
+bind	q			+movedown									// Swim Down
+bind	a			+moveleft									// Strafe Left
+bind	d			+moveright									// Strafe Right
+bind	DOWNARROW	+lookdown									// Look Down
+bind	UPARROW		+lookup										// Look Up
+bind	END			centerview									// Set View to Center
+bind	SHIFT		+speed										// Running
+bind	CTRL		+attack										// Fire Weapon
+bind	w			+forward									// Move Forward
+bind	s			+back										// Move Backward
+bind	LEFTARROW	+left										// Turn Left
+bind	RIGHTARROW	+right										// Turn Right
+bind	SPACE		+jump 										// Jump
+bind	ALT			+strafe										// Activate Strafe
+bind	TAB			+showscores									// Show Level Stats
+
+	// Weapons
+bind	1			"impulse 1"									// Axe
+bind	2			"impulse 2"									// Shotgun
+bind	3			"impulse 3"									// Super Shotgun
+bind	4			"impulse 4"									// Nail Gun
+bind	5			"impulse 5"									// Super Nail Gun
+bind	6			"impulse 6"									// Grenade Launcher
+bind	7			"impulse 7"									// Rocket Launcher
+bind	8			"impulse 8"									// Lightning Gun
+bind	0			"impulse 0"									// Reset Impulse
+
+	// Menukeys
+bind	F1			"help"										// Show Help Menu
+bind	F2			"menu_save"									// Open Save Menu
+bind	F3			"menu_load"									// Open Load Menu
+bind	F4			"menu_options"								// Options Menu
+bind	F5			"menu_multiplayer"							// Deathmatch Menu
+bind	F6			"echo Quicksaving...; wait; save quick"		// Quicksave
+bind	F9			"echo Quickloading...; wait; load quick"	// Quickload
+bind	F10			"quit"										// Exit immediately
+bind    F12			"screenshot"								// Take Screenshot
+
+	// Config
+bind	PAUSE		"pause"										// Pause Game
+bind	ESCAPE		"togglemenu"								// Toggle Main Menu
+bind	~			"toggleconsole"								// Toggle Console Window
+bind	`			"toggleconsole"								// Toggle Console Window
+bind	+			"sizeup"									// Viewport Size Increase
+bind	=			"sizeup"									// Viewport Size Increase
+bind	-			"sizedown"									// Viewport Size Decrease
+bind	t			"messagemode"								// Send message to server
+
+	// Mouse
+bind	MOUSE1		+attack										// Fire Weapon
+bind	MOUSE2		+zoom										// Toggle Zoom
+
+	// Zoom Def
+alias	+zoom		"sensitivity 2;fov 90;wait;fov 70;wait;fov 50;wait;fov 30;wait;fov 10;wait;fov 5;bind F11 zoom_out"
+alias	-zoom		"sensitivity 4;fov 5;wait;fov 10;wait;fov 30;wait;fov 50;wait;fov 70;wait;fov 90;bind F11 zoom_in; sensitivity 3"
+
+	// Defaults
+viewsize 			100
+sensitivity			3
+*/
