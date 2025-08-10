@@ -63,8 +63,6 @@ Several useful utilities coded in Python (for cross-compatibility) are included:
 trick, the most any of them should require on compile time is the -lm flag, but shouldn't
 need anything else AS OF NOW (8/8/25)
 
-\\\    COMPILING XXXXXXXXXX    \\\
-
 \\\    COMPILING DEMOS    \\\
       -----------------
 The Makefile reads 'files.dat' for the "quake.rc" file, specifically for the line that contains
